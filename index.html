@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Page Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>My One Page Website</h1>
+
+    <p>Welcome to my website project.</p>
+
+    <div class="gallery">
+        <img src="https://picsum.photos/id/1015/300/200" onclick="openModal(this.src)">
+        <img src="https://picsum.photos/id/1016/300/200" onclick="openModal(this.src)">
+        <img src="https://picsum.photos/id/1018/300/200" onclick="openModal(this.src)">
+    </div>
+
+    <div id="lightbox" class="lightbox" onclick="closeModal()">
+        <img id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
